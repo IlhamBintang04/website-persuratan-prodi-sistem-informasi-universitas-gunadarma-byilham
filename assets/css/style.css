@@ -1,0 +1,39 @@
+@media print {
+  .print-container,
+  .print-container * {
+    color: black;
+    visibility: visible;
+  }
+
+  .print-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .print-button {
+    display: none;
+  }
+  .no-print {
+    display: none;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .print-button,
+  .card-header,
+  .footer {
+    display: none;
+  }
+
+  .card {
+    border: none;
+  }
+  h2 {
+    display: none;
+    visibility: hidden;
+  }
+  .card-header {
+    display: none;
+    visibility: hidden;
+  }
+}
